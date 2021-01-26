@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+Body {
+    background-color: #F0E0BE;
+    height: 200%;
+}
+#app-picture1 img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    bottom: 40px;
+}
+footer #app-picture img {
+    z-index: 1;
+}
+header h1 {
+    z-index: 2;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      4px 4px 0px rgba(0, 0, 0, 0.2);
+      position: relative;
+    top: 50px;
+    left: 60px;
+    width: 30%;
+}
+header h1 a {
+    text-decoration: none;
+    color: black;
+    font-family: courier;
+}
